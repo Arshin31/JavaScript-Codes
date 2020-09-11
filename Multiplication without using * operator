@@ -1,0 +1,26 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+
+//start-here
+//Your code goes here … replace this line with your code logic 
+
+var dummy=userInput[0].split(" ");
+var a=parseInt(dummy[0]);
+var b=parseInt(dummy[1]);
+var prod=0;
+
+for(var i=0;i<b;i++)
+{
+    prod=prod+a;
+}
+console.log(prod);
+
+//end-here
+});
