@@ -1,0 +1,37 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+
+//start-here
+//Your code goes here … replace this line with your code logic 
+var str=userInput[0];
+var len=str.length;
+var flag=0;
+
+for(var i=0;i<len;i++)
+{
+    
+    if(str[i]!=str[len-i-1])
+    {
+        flag=1;
+        break;
+    }
+}
+if(flag)
+{
+    console.log(str+ " is not a palindrome ");
+}
+
+else
+{
+    console.log(str+ " is a palindrome ");
+}
+
+//end-here
+});
