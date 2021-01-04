@@ -1,0 +1,322 @@
+let arr1=[
+  {
+    "id": "1",
+    "name": "Unbranded Fresh Sausages",
+    "color": "cyan",
+    "price": "723.00",
+    "department": "Games"
+  },
+  {
+    "id": "2",
+    "name": "Tasty Rubber Chips",
+    "color": "red",
+    "price": "648.00",
+    "department": "Grocery"
+  },
+  {
+    "id": "3",
+    "name": "Handmade Fresh Table",
+    "color": "plum",
+    "price": "613.00",
+    "department": "Jewelery"
+  },
+  {
+    "id": "4",
+    "name": "Rustic Fresh Keyboard",
+    "color": "lavender",
+    "price": "427.00",
+    "department": "Home"
+  },
+  {
+    "id": "5",
+    "name": "Handmade Soft Keyboard",
+    "color": "mint green",
+    "price": "400.00",
+    "department": "Jewelery"
+  },
+  {
+    "id": "6",
+    "name": "Awesome Rubber Keyboard",
+    "color": "turquoise",
+    "price": "900.00",
+    "department": "Computers"
+  },
+  {
+    "id": "7",
+    "name": "Incredible Soft Soap",
+    "color": "gold",
+    "price": "369.00",
+    "department": "Tools"
+  },
+  {
+    "id": "8",
+    "name": "Fantastic Steel Pizza",
+    "color": "azure",
+    "price": "74.00",
+    "department": "Shoes"
+  },
+  {
+    "id": "9",
+    "name": "Licensed Granite Tuna",
+    "color": "red",
+    "price": "546.00",
+    "department": "Industrial"
+  },
+  {
+    "id": "10",
+    "name": "Tasty Concrete Tuna",
+    "color": "orchid",
+    "price": "765.00",
+    "department": "Clothing"
+  },
+  {
+    "id": "11",
+    "name": "Practical Rubber Sausages",
+    "color": "green",
+    "price": "829.00",
+    "department": "Tools"
+  },
+  {
+    "id": "12",
+    "name": "Tasty Fresh Tuna",
+    "color": "red",
+    "price": "713.00",
+    "department": "Music"
+  },
+  {
+    "id": "13",
+    "name": "Generic Steel Chicken",
+    "color": "lavender",
+    "price": "702.00",
+    "department": "Computers"
+  },
+  {
+    "id": "14",
+    "name": "Refined Frozen Chips",
+    "color": "pink",
+    "price": "901.00",
+    "department": "Jewelery"
+  },
+  {
+    "id": "15",
+    "name": "Awesome Frozen Sausages",
+    "color": "sky blue",
+    "price": "480.00",
+    "department": "Outdoors"
+  },
+  {
+    "id": "16",
+    "name": "Fantastic Metal Mouse",
+    "color": "salmon",
+    "price": "350.00",
+    "department": "Tools"
+  },
+  {
+    "id": "17",
+    "name": "Refined Cotton Bacon",
+    "color": "teal",
+    "price": "244.00",
+    "department": "Electronics"
+  },
+  {
+    "id": "18",
+    "name": "Unbranded Wooden Mouse",
+    "color": "lime",
+    "price": "102.00",
+    "department": "Grocery"
+  },
+  {
+    "id": "19",
+    "name": "Ergonomic Metal Ball",
+    "color": "olive",
+    "price": "536.00",
+    "department": "Games"
+  },
+  {
+    "id": "20",
+    "name": "Fantastic Concrete Shirt",
+    "color": "red",
+    "price": "119.00",
+    "department": "Garden"
+  },
+  {
+    "id": "21",
+    "name": "Small Plastic Towels",
+    "color": "black",
+    "price": "585.00",
+    "department": "Beauty"
+  },
+  {
+    "id": "22",
+    "name": "Handmade Fresh Mouse",
+    "color": "grey",
+    "price": "636.00",
+    "department": "Sports"
+  },
+  {
+    "id": "23",
+    "name": "Gorgeous Frozen Shoes",
+    "color": "indigo",
+    "price": "529.00",
+    "department": "Jewelery"
+  },
+  {
+    "id": "24",
+    "name": "Gorgeous Concrete Table",
+    "color": "sky blue",
+    "price": "280.00",
+    "department": "Health"
+  },
+  {
+    "id": "25",
+    "name": "Sleek Cotton Bike",
+    "color": "pink",
+    "price": "872.00",
+    "department": "Health"
+  }
+]
+//1 Use filter() to group the products based on category
+//var myfilter=arr.filter((elem,index)=>{
+    //if(elem[index]==elem[index+1]){
+      //  return arr;
+//    }
+//})
+//console.log(arr.price)
+
+
+//2 Use map() & filter() chain to sum the price
+
+//3 Use reduce to compare and print the entire product JSON data in which price is higher
+//var myArray=arr.reduce(function(prev, curr) {
+  //  return prev.price > curr.price ? prev : curr;
+//});
+//console.log(myArray)
+
+var films=[
+     {
+       "id": 1,
+       "title": "Toy Story",
+       "director": "John Lasseter",
+       "year": 1995,
+       "length_minutes": 81
+     },
+     {
+       "id": 5,
+       "title": "Finding Nemo",
+       "director": "Andrew Stanton",
+       "year": 2003,
+       "length_minutes": 107
+     },
+     {
+       "id": 13,
+       "title": "Brave",
+       "director": "Brenda Chapman",
+       "year": 2012,
+       "length_minutes": 102
+     },
+     {
+       "id": 14,
+       "title": "Monsters University",
+       "director": "Dan Scanlon",
+       "year": 2013,
+       "length_minutes": 110
+     },
+     {
+       "id": 9,
+       "title": "WALL-E",
+       "director": "Andrew Stanton",
+       "year": 2008,
+       "length_minutes": 104
+     },
+     {
+       "id": 10,
+       "title": "Up",
+       "director": "Pete Docter",
+       "year": 2009,
+       "length_minutes": 101
+     },
+     {
+       "id": 12,
+       "title": "Cars 2",
+       "director": "John Lasseter",
+       "year": 2011,
+       "length_minutes": 120
+     },
+     {
+       "id": 6,
+       "title": "The Incredibles",
+       "director": "Brad Bird",
+       "year": 2004,
+       "length_minutes": 116
+     },
+     {
+       "id": 3,
+       "title": "Toy Story 2",
+       "director": "John Lasseter",
+       "year": 1999,
+       "length_minutes": 93
+     },
+     {
+       "id": 4,
+       "title": "Monsters, Inc.",
+       "director": "Pete Docter",
+       "year": 2001,
+       "length_minutes": 92
+     },
+     {
+       "id": 11,
+       "title": "Toy Story 3",
+       "director": "Lee Unkrich",
+       "year": 2010,
+       "length_minutes": 103
+     },
+     {
+       "id": 8,
+       "title": "Ratatouille",
+       "director": "Brad Bird",
+       "year": 2007,
+       "length_minutes": 115
+     },
+     {
+       "id": 2,
+       "title": "A Bug's Life",
+       "director": "John Lasseter",
+       "year": 1998,
+       "length_minutes": 95
+     },
+     {
+       "id": 7,
+       "title": "Cars",
+       "director": "John Lasseter",
+       "year": 2006,
+       "length_minutes": 117
+     }
+   ]
+   
+//var len=films.reduce(function(prev, curr) {
+//    return prev.length_minutes < curr.length_minutes ? prev : curr;
+//});
+//console.log(len)
+
+//var lessthanhundred=films.reduce(function(prev,curr){
+  //  if(prev.length_minutes<100){
+//    return prev
+  //  }
+//})
+
+//console.log(lessthanhundred);
+
+
+var array = [[["firstName", "Vasanth"], ["lastName", "Raja"], ["age", 24], ["role", "JSWizard"]], [["firstName", "Sri"], ["lastName", "Devi"], ["age", 28], ["role", "Coder"]]];
+
+var arrcount=array.reduce((obj,arr)=>{
+    if(!obj[arr]){
+        obj[arr]=1;
+    }
+    else{
+        obj[arr]++;
+    }
+    return obj;
+},{})
+
+console.log(arrcount);
